@@ -14,6 +14,30 @@ body {
     width: 100%;
     max-width: 400px;
     }
+    /*estilos para el logo*/
+    .logo-container{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .text-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .empresa{
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .sucursal{
+        font-size: 0.9em;
+        color: #666;
+    }
+    .log{
+        width: 150px;
+        height: auto;
+        display: block;
+        margin: 10px auto; /* Centra el logo con margen */
+    }
     input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
     padding: 12px;
