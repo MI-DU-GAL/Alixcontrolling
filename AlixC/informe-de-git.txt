@@ -1,0 +1,28 @@
+empezando con git primeras pruebas al die de 21 04 2025 
+lo que importa es aprender todo sobre commit 
+para esto aprendemos algunos comando muy importantes para moverse en git 
+para subir ub un archivo a git seve realizar todo el proceso de hubicarnos en las carpetas del area de 
+preparacion o el directorio 
+para niciar en el disco local comando es >cd c:  
+> cd y nombre de la carpeta
+
+cd c:
+cd carpeta 
+cd carpeta
+ git git init  inicializa el area de trabajo 
+ git log → Ver el historial de commits
+ git diff → Ver qué cambió antes de hacer un commit
+ git checkout restaura el commit asta su ultima version 
+ git add subir archivo al area de trabajo 
+ //commit//
+ git commit 
+ git reset --hard  restaura el archivo del commit 
+ para modificar commit > git commit amend
+ para borrar commit    > git reset --soft aqui el numero de commit
+ // comando de ramas branch //
+ para crear una rama es >git checkout -d nombre-de-la-rama
+ para-dentro-de-ramas-es>git switch
+ para saber cuantas ramas ahi y encual estas >git branch
+ borrar rama >git branch -d (nombre-de-la-rama)
+ cambiar nombre en rama desitan >git branch -m nombre de la rama segudi del nuevo nombre 
+ touch index.html          # Crear archivo HTML
